@@ -1,0 +1,7 @@
+train: D:\\Dataset\\PCB_dataset\\data\\train.txt  
+val: D:\\Dataset\\PCB_dataset\\data\\val.txt  
+test: D:\\Dataset\\PCB_dataset\\data\\test.txt  
+
+# Classes
+nc: 6  # number of classes
+names: [ 'missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper' ]  # class names
